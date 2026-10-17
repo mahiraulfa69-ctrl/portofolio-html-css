@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f7;
+    color: #594747;
+    line-height: 1.7;
+}
+
+nav {
+    background-color: #f3dadd;
+    color: #594747;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #594747;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c4778a;
+}
+
+section {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+#beranda {
+    background-color: #fff0f1;
+    padding: 80px 8%;
+}
+
+.foto-profil {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 15px #e5c1c8;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #b86f83;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #b86f83;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #d99aaa;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.tombol:hover {
+    background-color: #b86f83;
+}
+
+#tentang,
+#keahlian,
+#kontak {
+    background-color: #fffaf5;
+    margin: 15px auto;
+}
+
+footer {
+    background-color: #f3dadd;
+    color: #594747;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .foto-profil {
+        width: 135px;
+        height: 135px;
+    }
+}
+
